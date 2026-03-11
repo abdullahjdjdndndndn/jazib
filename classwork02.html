@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple CV with Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 bg-light p-3">
+                <ul class="nav flex-column nav-pills" id="CV" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#myintro" role="tab">INTRODUCTION</a> 
+                    <!-- href = reference from tab to tab content -->
+                    <!-- data-bs-toggle = when click on tab it toggle(switch) and show the relivant tab content -->
+                    <!-- role = sepecify the role of the tab  -->
+                    <!-- con..fluid = use to cover the whole screen width -->
+                    <!-- <a> define a hyperlink to link another page or session</a> -->
+                    <!-- <ul> create an unorderd list, often used for nevigation m</ul> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#myedu" role="tab">ACADEMICS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#myobj" role="tab">CARRIER OBJECTIVE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#skills" role="tab">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#languages" role="tab">LANGUAGES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#experience" role="tab">EXPERIENCE</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" data-bs-toggle="tab" href="#hobbies" role="tab">HOBBIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#e-mails" role="tab">ACTIVE E-MAILS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#sepecialization" role="tab">SEPECIALIZATION</a>
+                </li>
+            </ul>
+        </div>
+    <div class="col-md-9 p-3">
+            <div class="tab-content">
+                <div class="tab-pane fade active show" id="myintro" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-9 bg-light">
+                        
+                        <p><h2>Name</h2>Rana Abdullah Iftikhar Ahmad</p>
+                        <p><h2>Age</h2>19 [teenager]</p>
+                        <p><h2>Status</h2>Single[unmarried]</p>
+                        </div>
+                        <!-- <div class="col-md-3"></div>
+                        <div class="col-md-3"></div> -->
+                        <div class="col-md-3"><image src="my.jpeg" width="210" heoght="210">Official</image></div>
+                     </div>
+                     <h2>ABOUT ME:</h2>
+                     <p>Rana Abdullah, son of Iftikhar Ahmed, hails from the vibrant city of Gujranwala.
+                     Currently pursuing a Bachelor's in Information Technology (BSIT), Abdullah has
+                      consistently excelled in his academic journey. He secured impressive grades in
+                      Matric and Intermediate, and is currently maintaining a stellar CGPA of above
+                        3.80 in his third semester.He's also ventured into web development, crafting 
+                        websites with passion.</p>
+
+                    
+                    <p>@ abdullah0733208@gmail.com</p>
+                </div>
+                <div class="tab-pane fade" id="myedu" role="tabpanel">
+                    <div class="row bg-light">
+                        <div class="col-md-3"><image src="edua.jpeg" width="210" heoght="210"></image></div>
+                        <div class="col-md-3"><image src="edub.jpeg" width="210" heoght="210"></image></div>
+                        <div class="col-md-3"><image src="educ.jpeg" width="210" heoght="210"></image></div>
+                        <div class="col-md-3"><image src="edue.jpeg" width="210" heoght="210"></image></div>
+                    </div>
+
+                    <p>The academic record is placed above till n</p>
+                    <h2>Academic Information</h2>
+                    <p>Abdullah has an outstanding academic track record, showcasing his dedication
+                         and intellectual prowess. In Matric, he secured an impressive 960 marks out
+                          of 1100, demonstrating a strong foundation in his early education. He further 
+                          excelled in Intermediate, scoring 973 marks out of 1200. In his BSIT program, 
+                          Abdullah has consistently maintained an excellent CGPA, scoring above 85% 
+                          in every semester. Notably, he achieved a CGPA of 3.80 in his second semester,
+                           contributing to a current CGPA of 3.454. His academic performance reflects his 
+                           commitment to excellence and passion for learning.</p>
+                </div>
+                <div class="tab-pane fade" id="myobj" role="tabpanel">
+                    <h2>Programming Excellence</h2>
+                    <p>As a programming enthusiast, I aim to leverage my skills in languages like C++, Java,
+                         Python, and Swift to develop innovative solutions. With a strong academic background
+                          and hands-on experience, I aspire to excel in software development, tackling complex 
+                          problems and contributing to cutting-edge projects. Through teaching and learning, I've 
+                          honed my ability to adapt and grow in the ever-evolving tech landscape, and I'm eager to 
+                          apply my expertise to drive impactful results .</p>
+                          <h2>Web Development Mastery</h2>
+                          <p>In web development, I strive to craft engaging, user-centric experiences. 
+                            With proficiency in relevant technologies, I've created websites that showcase 
+                            my creativity and technical prowess. As I continue to learn and teach, I'm focused 
+                            on staying ahead of industry trends, mastering frameworks, and building scalable, 
+                            efficient web applications. My goal is to deliver digital solutions that inspire 
+                            and empower users, driving growth and success for businesses and organizations</p>
+                            <h2>Networking and Emerging Tech</h2>
+                            <p>In networking, I'm passionate about exploring the intricacies of connectivity and 
+                                infrastructure. With a solid foundation in IT, I'm eager to dive deeper into 
+                                network design, security, and optimization. As technology advances, I'm excited 
+                                to learn and apply emerging concepts, ensuring seamless communication and data 
+                                exchange. Through teaching and hands-on experience, I'm developing a holistic 
+                                understanding of networking, positioning myself to make meaningful contributions 
+                                in this dynamic field .</p>
+                </div>
+                <div class="tab-pane fade" id="skills" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6 bg-light">
+                        <h2>Programming Excellence</h2>
+                        <p>As a programming enthusiast, I aim to leverage my skills in languages like C++, Java,
+                         Python, and Swift to develop innovative solutions. With a strong academic background
+                          and hands-on experience, I aspire to excel in software development, tackling complex 
+                          problems and contributing to cutting-edge projects. Through teaching and learning, I've 
+                          honed my ability to adapt and grow in the ever-evolving tech landscape, and I'm eager to 
+                          apply my expertise to drive impactful resultsI aim to leverage my skills in languages like C++, Java,
+                         Python, and Swift to develop innovative solutions. With a strong academic background
+                          and hands-on experience, I aspire to excel in software development, tackling complex 
+                          problems and contributing to cutting-edge projects I've collaborated with teams to deploy secure, scalable solutions, and my experience with 
+                            network monitoring tools has helped me proactively identify and resolve issues. .</p>
+                        
+                        </div>
+                        <!-- <div class="col-md-3"></div>
+                        <div class="col-md-3"></div> -->
+                        <div class="col-md-6"><image src="proa.jpg" width="410" height="410"></image></div>
+                     </div>
+                    
+                          
+
+                </div>
+                <div class="tab-pane fade" id="languages" role="tabpanel">
+                    <h3>Urdu</h3>
+                    <p>Urdu is my native language, and I'm fluent in speaking, reading, and writing it. 
+                        I've taught Urdu to students and enjoy sharing its rich cultural heritage. Urdu's 
+                        poetic beauty and expressive nature make it a joy to communicate in .
+</p>
+                    <h3>English</h3>
+                    <p>English is a global language, and I'm proficient in it, with experience in teaching and working 
+                        with international clients. I can communicate effectively in formal and informal settings, 
+                        making it a valuable skill for business and education. My English skills have opened doors 
+                        to new opportunities .</p>
+                    
+                    <h3>Japanese</h3>
+                    <p>Japanese is a fascinating language I've studied, and I'm able to communicate basic phrases 
+                        and understand its culture. From teaching to translation work, I've explored Japan's unique 
+                        blend of tradition and tech. Japanese language and culture continue to inspire me .</p>
+                    <h3>Chinese</h3>
+                    <p>Chinese is a language I'm learning, and I'm able to communicate basic phrases. With China's 
+                        growing global influence, I see opportunities to apply my skills. I'm interested in 
+                        exploring China's rich history and culture.</p>
+                  
+                </div>
+                <div class="tab-pane fade" id="experience" role="tabpanel">
+                    <h2>Certified ANSI</h2>
+                    <p>2 year experience in Networking</p>
+                    <div class="row">
+                        <div class="col-md-6 bg-light">
+                        <h3>Networking</h3>
+                        <p>With hands-on experience in the networking field, I've developed a strong foundation in 
+                            designing, implementing, and managing robust networks. I've worked with various protocols, 
+                            configured routers and switches, and ensured seamless connectivity. Troubleshooting 
+                            complex issues and optimizing network performance have honed my problem-solving skills. 
+                            I've collaborated with teams to deploy secure, scalable solutions, and my experience with 
+                            network monitoring tools has helped me proactively identify and resolve issues. 
+                            My networking expertise enables organizations to operate efficiently, securely, and 
+                            reliably .I've collaborated with teams to deploy secure, scalable solutions, and my experience with 
+                            network monitoring tools has helped me proactively identify and resolve issues.in my personal 
+                            experience </p>
+                        
+                        </div>
+                        <!-- <div class="col-md-3"></div>
+                        <div class="col-md-3"></div> -->
+                        <div class="col-md-6"><image src="neta.jpg" width="410" height="410"></image></div>
+                     </div>
+                                   </div>
+                <div class="tab-pane fade" id="hobbies" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6 bg-light">
+                        <h3>Science Experiments</h3>
+                        <p>Science experiments are my second hobby, where I conduct various experiments. These 
+                        experiments are not only interesting but also help me understand scientific principles 
+                        practically. I enjoy doing science experiments in my free time .Science experiments are my second hobby, where I conduct various experiments. These 
+                        experiments are not only interesting but also help me understand scientific principles 
+                        practically. I enjoy doing science experiments in my free time .Science experiments are my second hobby, where I conduct various experiments. These 
+                        experiments are not only interesting but also help me understand scientific principles 
+                        practically. I enjoy doing science experiments in my free time .</p>
+                        
+                        </div>
+                        <!-- <div class="col-md-3"></div>
+                        <div class="col-md-3"></div> -->
+                        <div class="col-md-6"><image src="scia.jpg" width="410" height="410"></image></div>
+                     </div>
+                     <h2>Book Reading</h2>
+                     <p>Book reading is a fascinating hobby for me, where I read informative and interesting books. 
+                        Informative books provide me with new knowledge and enhance my experience. I particularly 
+                        enjoy reading books on scientific and historical topics.</p>
+                </div>
+                <div class="tab-pane fade" id="e-mails" role="tabpanel">
+                    <h3>Personal E-mail Account</h3>
+                    <p>abdullah0733208@gmail.com</p>
+                    <p>abdullah3208073@gmail.com</p>
+                    <p>abdullah32345238073@gmail.com</p>
+                    <p>shoaibrajpoot7506@gmail.com</p>
+                    <h3>Official E-mail Account</h3>
+                    <p>24011556-073@uog.edu.pk</p>
+                </div>
+                <div class="tab-pane fade" id="sepecialization" role="tabpanel">
+                    <h1>NO SEPECIALIZATION...</h1>
+                    <image src="ques.jpg" width="410" height="410"></image>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JS (needed for tab switching, no custom JS required) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<div class="container-fluid">
+    <ul class="nav flex-column nav-pills" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#extrainfo" role="tab">
+                EXTRA INFORMATION
+            </a> 
+        </li>
+    </ul>
+    <div class="tab-pane fade" id="extrainfo" role="tabpanel">
+        <h2>family information</h2>
+        <p>Joint family system...</p>
+    </div>
+</div>
+
+</body>
+</html>
